@@ -1,6 +1,6 @@
 {
-  "name": "ngrx-store-capacitor",
-  "version": "1.0.5",
+  "name": "@arthur.zakharchenko/ngrx-store-capacitor-v3",
+  "version": "0.0.1",
   "description": "Simple storage syncing between @ngrx/store and @capacitor.",
   "scripts": {
     "commit": "npm run prepublish && npm test",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whjvenyl/ngrx-store-capacitor.git"
+    "url": "git+https://github.com/ArthurZakharchenko/ngrx-store-capacitor-v3.git"
   },
   "keywords": [
     "redux",
@@ -21,17 +21,18 @@
   "author": "whjvenyl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whjvenyl/ngrx-store-capacitor/issues"
+    "url": "https://github.com/ArthurZakharchenko/ngrx-store-capacitor-v3/issues"
   },
   "module": "index.js",
   "typings": "index.d.ts",
   "main": "bundles/ngrx-store-capacitor.umd.js",
-  "homepage": "https://github.com/whjvenyl/ngrx-store-capacitor#readme",
+  "homepage": "https://github.com/ArthurZakharchenko/ngrx-store-capacitor-v3#readme",
   "devDependencies": {
     "@angular/compiler": "^6.0.0",
     "@angular/compiler-cli": "^6.0.0",
     "@angular/core": "^6.0.0",
     "@capacitor/core": "1.0.0-beta.17",
+    "@capacitor/storage": "1.2.5",
     "@ngrx/effects": "6.1.2",
     "@ngrx/store": "6.1.2",
     "@types/es6-promise": "0.0.33",
@@ -56,6 +57,7 @@
   },
   "peerDependencies": {
     "@angular/common": ">=6.0.0",
+    "@capacitor/storage": "1.2.5",
     "@angular/core": ">=6.0.0",
     "@capacitor/core": "^1.0.0-beta.17",
     "@ngrx/effects": ">=6.0.0",

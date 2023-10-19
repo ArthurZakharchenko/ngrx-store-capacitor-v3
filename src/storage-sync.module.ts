@@ -10,7 +10,7 @@ import { catchError, map } from 'rxjs/operators';
 
 import { getNested, setNested } from './object.helper';
 
-const { Storage } = Plugins;
+import { Storage } from "@capacitor/storage";
 const STORAGE_KEY = 'NSIS_APP_STATE';
 
 function fetchState(): Promise<void | {}> {
